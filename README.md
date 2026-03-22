@@ -2,13 +2,23 @@
 
 A full-stack web application for smart room and property rentals, built with React for the frontend and Node.js/Express for the backend, using MongoDB as the database.
 
-## Features
-
-- User authentication (register, login)
-- Property listing and management
-- Contact functionality
-- File uploads for property images
-- Responsive design
+Features
+   👤 Authentication
+       User Registration (Tenant / Owner)
+       User Login with JWT Authentication
+       Secure Password Hashing (bcrypt)
+        Protected Routes
+  🏠 Property Management
+       Add Property (Owner Only)
+       Upload Property Images
+       View All Properties
+       View Owner Details
+  💬 Contact System
+      Tenant can send message to owner
+      Messages stored securely in database
+  🖼 Image Upload
+      Image upload using Multer
+      Stored in backend uploads folder
 
 ## Tech Stack
 
@@ -25,62 +35,6 @@ A full-stack web application for smart room and property rentals, built with Rea
 - JWT for authentication
 - Multer for file uploads
 - bcryptjs for password hashing
-
-## Installation
-
-### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB (local or cloud instance)
-- Git
-
-### Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ujjwalkumarjaiswal/RentSphere---Smart-Room-Rental-Platform.git
-   cd RentSphere---Smart-Room-Rental-Platform
-   ```
-
-2. Install backend dependencies:
-   ```bash
-   cd backend
-   npm install
-   ```
-
-3. Install frontend dependencies:
-   ```bash
-   cd ../frontend
-   npm install
-   ```
-
-4. Set up environment variables:
-   - Create a `.env` file in the `backend` directory
-   - Add your MongoDB connection string:
-     ```
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     ```
-
-5. Start the backend server:
-   ```bash
-   cd backend
-   npm start
-   ```
-   The backend will run on `http://localhost:5000` (assuming default port).
-
-6. Start the frontend:
-   ```bash
-   cd frontend
-   npm start
-   ```
-   The frontend will run on `http://localhost:3000`.
-
-## Usage
-
-- Open your browser and navigate to `http://localhost:3000`
-- Register a new account or login
-- Browse and add properties
-- Use the contact feature
 
 ## API Endpoints
 
@@ -132,9 +86,30 @@ RentSphere---Smart-Room-Rental-Platform/
 
 This project is licensed under the ISC License.
 
-## Contact
+How It Works
+    User registers and logs in.
+    JWT token is generated and stored in browser.
+    Owners can add properties.
+    Properties are displayed on homepage.
+    Tenants can contact property owners.
+    Images are uploaded and stored on server.
 
-Ujjwal Kumar Jaiswal - [Your Email or LinkedIn]
+🔒 Security Features
+    Password hashing with bcrypt
+    JWT-based authentication
+    Protected routes
+    Role-based logic (Owner / Tenant)
 
-Project Link: [https://github.com/ujjwalkumarjaiswal/RentSphere---Smart-Room-Rental-Platform](https://github.com/ujjwalkumarjaiswal/RentSphere---Smart-Room-Rental-Platform)</content>
-<parameter name="filePath">c:\Projects\Smart Rentals\README.md
+📈 Future Improvements
+    Owner Dashboard
+    Message Inbox
+    Online Booking System
+    Payment Integration
+    Google Maps Integration
+    Cloud Image Storage (Cloudinary)
+    UI Improvement with Tailwind CSS
+    
+👨‍💻 Author
+
+Ujjwal Jaiswal
+Full Stack MERN Developer (Learning & Building 🚀)
