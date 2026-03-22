@@ -90,30 +90,33 @@ RentSphere---Smart-Room-Rental-Platform/
 
 This project is licensed under the ISC License.
 
-How It Works
-    User registers and logs in.
-    JWT token is generated and stored in browser.
-    Owners can add properties.
-    Properties are displayed on homepage.
-    Tenants can contact property owners.
-    Images are uploaded and stored on server.
+## How It Works
 
-🔒 Security Features
-    Password hashing with bcrypt
-    JWT-based authentication
-    Protected routes
-    Role-based logic (Owner / Tenant)
+1. User registers and logs in.
+2. JWT token is generated and stored in browser.
+3. Owners can add properties.
+4. Properties are displayed on homepage.
+5. Tenants can contact property owners.
+6. Images are uploaded and stored on server.
 
-📈 Future Improvements
-    Owner Dashboard
-    Message Inbox
-    Online Booking System
-    Payment Integration
-    Google Maps Integration
-    Cloud Image Storage (Cloudinary)
-    UI Improvement with Tailwind CSS
+## 🔒 Security Features
 
-👨‍💻 Author
+- Password hashing with bcrypt
+- JWT-based authentication
+- Protected routes
+- Role-based logic (Owner / Tenant)
 
-Ujjwal Jaiswal
+## 📈 Future Improvements
+
+- Owner Dashboard
+- Message Inbox
+- Online Booking System
+- Payment Integration
+- Google Maps Integration
+- Cloud Image Storage (Cloudinary)
+- UI Improvement with Tailwind CSS
+
+## 👨‍💻 Author
+
+**Ujjwal Jaiswal**  
 Full Stack MERN Developer (Learning & Building 🚀)
