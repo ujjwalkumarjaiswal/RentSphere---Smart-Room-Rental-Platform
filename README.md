@@ -2,23 +2,27 @@
 
 A full-stack web application for smart room and property rentals, built with React for the frontend and Node.js/Express for the backend, using MongoDB as the database.
 
-Features
-   👤 Authentication
-       User Registration (Tenant / Owner)
-       User Login with JWT Authentication
-       Secure Password Hashing (bcrypt)
-        Protected Routes
-  🏠 Property Management
-       Add Property (Owner Only)
-       Upload Property Images
-       View All Properties
-       View Owner Details
-  💬 Contact System
-      Tenant can send message to owner
-      Messages stored securely in database
-  🖼 Image Upload
-      Image upload using Multer
-      Stored in backend uploads folder
+## Features
+
+- 👤 **Authentication**
+  - User Registration (Tenant / Owner)
+  - User Login with JWT Authentication
+  - Secure Password Hashing (bcrypt)
+  - Protected Routes
+
+- 🏠 **Property Management**
+  - Add Property (Owner Only)
+  - Upload Property Images
+  - View All Properties
+  - View Owner Details
+
+- 💬 **Contact System**
+  - Tenant can send message to owner
+  - Messages stored securely in database
+
+- 🖼 **Image Upload**
+  - Image upload using Multer
+  - Stored in backend uploads folder
 
 ## Tech Stack
 
@@ -108,7 +112,7 @@ How It Works
     Google Maps Integration
     Cloud Image Storage (Cloudinary)
     UI Improvement with Tailwind CSS
-    
+
 👨‍💻 Author
 
 Ujjwal Jaiswal
