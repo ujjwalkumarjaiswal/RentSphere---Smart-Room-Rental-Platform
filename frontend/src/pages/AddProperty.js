@@ -61,6 +61,7 @@ function AddProperty() {
         <input name="longitude" placeholder="Longitude" onChange={handleChange} /><br />
        <input type="file" name="image" onChange={(e) =>
   setFormData({ ...formData, image: e.target.files[0] })
+  
 } /><br />
 
         <button type="submit">Add Property</button>
