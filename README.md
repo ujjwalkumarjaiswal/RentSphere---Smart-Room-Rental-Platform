@@ -86,10 +86,6 @@ RentSphere---Smart-Room-Rental-Platform/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the ISC License.
-
 ## How It Works
 
 1. User registers and logs in.
@@ -120,3 +116,7 @@ This project is licensed under the ISC License.
 
 **Ujjwal Jaiswal**  
 Full Stack MERN Developer (Learning & Building 🚀)
+
+## License
+
+This project is licensed under the ISC License.
